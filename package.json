@@ -1,0 +1,17 @@
+{
+  "name": "toutiao_news_nlp",
+  "version": "1.0.0",
+  "description": "NLP + React",
+  "main": "index.js",
+  "repository": "git@github.com:TreeVie/toutiao_news_nlp.git",
+  "author": "liuwei <we1025@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {
+    "antd": "^3.3.3",
+    "react": "^16.2.0",
+    "react-router": "^4.2.0"
+  }
+}
