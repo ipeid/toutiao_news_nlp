@@ -5,9 +5,8 @@
 import React, { Component } from "react"
 
 export default class Sider extends Component {
-
-    state={
-        lists:[{id:'test0'}]
+    state = {
+        lists: [{ id: "test0" }]
     }
 
     render() {

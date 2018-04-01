@@ -1,26 +1,25 @@
-import React from 'react'
+import React from "react"
 
-import Sider from './sider/sider'
-import Header from './header/header'
+import Sider from "./sider/sider"
+import Header from "./header/header"
+import Content from "./content/content"
 
-
-const Root = ({props})=>{
-    return (
-        <div className="app">
-            {props.children}
-        </div>
-    )
+const Root = ({ children }) => {
+    return <div className="app">{children}</div>
 }
 
+const Container = ({ children }) => {
+    return <div className="container">{children}</div>
+}
 
-class Index extends React.Component{
-    render(){
+export default class Index extends React.Component {
+    render() {
         return (
             <Root>
-                <Header></Header>
+                <Header />
                 <Container>
-                    <Sider></Sider>
-                    <Content></Content>
+                    <Sider />
+                    <Content />
                 </Container>
                 {/* <Footer></Footer> */}
             </Root>

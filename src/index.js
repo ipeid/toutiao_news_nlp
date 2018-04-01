@@ -8,7 +8,7 @@ import Index from "./components/index"
 const App = props => {
     return (
         <BrowserRouter basename="/">
-            <Route path="/index" component={Index} />
+            <Route path="/" component={Index} />
         </BrowserRouter>
     )
 }

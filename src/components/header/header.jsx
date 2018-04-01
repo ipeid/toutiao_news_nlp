@@ -1,21 +1,20 @@
 /**
- * 头部 
+ * 头部
  * 1. 显示LOGO
  * 2. 搜索框
  * 3. 提示信息
  * 4. 用户信息
  */
 
-import React,{Component,PureComponent} from 'react'
+import React, { Component, PureComponent } from "react"
 
-class Header extends Component{
-
-    render(){
+export default class Header extends Component {
+    render() {
         return (
             <div className="header">
                 <div className="logo">NLP by zhoushen</div>
-                <Search></Search>
-                <UserInfo></UserInfo>
+                <Search />
+                <UserInfo />
             </div>
         )
     }
@@ -24,22 +23,20 @@ class Header extends Component{
 /**
  * 搜索框
  */
-class Search extends PureComponent{
-    render(){
-        return (
-            <div className="search"></div>
-        )
+class Search extends PureComponent {
+    render() {
+        return <div className="search" />
     }
 }
 
 /**
  * 用户信息
  */
-class UserInfo extends PureComponent{
-    render(){
+class UserInfo extends PureComponent {
+    render() {
         return (
             <div className="user-info">
-                <div className="msg"></div>
+                <div className="msg" />
             </div>
         )
     }
