@@ -26,7 +26,7 @@ module.exports = {
             {
                 test: /\.jsx?$/,
                 use: ["babel-loader"],
-                type: "javascript/esm",
+                type: "javascript/auto",
                 include: path.resolve(__dirname, "src"),
                 exclude: /node_modules/
             },
