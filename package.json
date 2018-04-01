@@ -14,6 +14,7 @@
   "dependencies": {
     "antd": "^3.3.3",
     "echarts": "^4.0.4",
+    "immutable": "^3.7.4",
     "moment": "^2.21.0",
     "react": "^16.2.0",
     "react-dom": "^16.3.0",
@@ -35,6 +36,7 @@
     "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-react": "^7.7.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
     "react-hot-loader": "^4.0.0",
     "webpack": "^4.4.1",
